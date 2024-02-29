@@ -1,6 +1,7 @@
 import 'package:e_commers/components/button.dart';
 import 'package:e_commers/models/product.dart';
 import 'package:e_commers/models/shop.dart';
+import 'package:e_commers/pages/gateway.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -27,15 +28,6 @@ class Cart_Page extends StatelessWidget {
         ],
       )
     );
-  }
-
-  void button_pressed(BuildContext context){
-    showDialog(
-      context: context,
-      builder: (context)=> const AlertDialog(
-        content: Text("Payment Successfull"),
-      )
-      );
   }
 
   @override
@@ -70,7 +62,12 @@ class Cart_Page extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.all(50.0),
-            child: My_button(onTap: ()=>button_pressed(context), child: Text("Pay Now")),
+            child: My_button(onTap: ()=>{
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context)=>GateWay())
+              )
+            }, child: Text("Pay Now")),
           ),
         ],
       ),
