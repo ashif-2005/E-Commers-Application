@@ -22,7 +22,7 @@ class GateWay extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
         foregroundColor: Colors.black,
-        title: Text(
+        title:const Text(
           "Payment Gateway",
           style: TextStyle(
             fontWeight: FontWeight.bold
@@ -54,7 +54,7 @@ class GateWay extends StatelessWidget {
                         ),
                         SizedBox(width: 10,),
                         Text(
-                          "UPI (Unified Payment Interface)",
+                          "UPI (Unified Payment \nInterface)",
                           style: TextStyle(
                             fontSize: 20,
                             color: Theme.of(context).colorScheme.inversePrimary,

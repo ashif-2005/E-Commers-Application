@@ -23,7 +23,7 @@ class _IntopageState extends State<Intopage> {
               ),
               SizedBox(height: 25,),
             Text(
-              "ZenithZone",
+              "RapidRack",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 35,
@@ -31,7 +31,7 @@ class _IntopageState extends State<Intopage> {
             ),
             SizedBox(height: 10,),
             Text(
-              "Premium Quality Product",
+              "Shop At The Speed Of Thought.",
               style: TextStyle(
                 color: Theme.of(context).colorScheme.inversePrimary,
                 fontSize: 15,

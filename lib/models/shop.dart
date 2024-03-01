@@ -4,24 +4,28 @@ import 'package:flutter/material.dart';
 class shop extends ChangeNotifier{
   List<product> _shop = [
     product(
-      name: "Product 1",
-      price: 99.9999,
-      description: "Item Description..."
+      name: "Milk",
+      price: 100,
+      description: "Item Description...",
+      address: "asstes/Milk.png"
     ),
     product(
-      name: "Product 2",
-      price: 999.9999,
-      description: "Item Description..."
+      name: "Maggie",
+      price: 150,
+      description: "Item Description...",
+      address: "asstes/maggie.png"
     ),
     product(
-      name: "Product 3",
-      price: 9999.9999,
-      description: "Item Description..."
+      name: "Oreo",
+      price: 500,
+      description: "Item Description...",
+      address: "asstes/oreo.png"
     ),
     product(
-      name: "Product 4",
-      price: 99999.9900,
-      description: "Item Description..."
+      name: "Pringles",
+      price: 1500,
+      description: "Item Description...",
+      address: "asstes/Pringles.png"
     )
   ];
   

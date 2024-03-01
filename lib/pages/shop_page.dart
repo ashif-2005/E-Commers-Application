@@ -18,7 +18,7 @@ class Shop_Page extends StatelessWidget {
         elevation: 0,
         foregroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(
-          'ZenithZone',
+          'RapidRack',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 25,

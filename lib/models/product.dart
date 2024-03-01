@@ -2,10 +2,12 @@ class product {
   final String name;
   final double price;
   final String description;
+  final String address;
 
   product({
     required this.name,
     required this.price,
     required this.description,
+    required this.address,
   });
 }
