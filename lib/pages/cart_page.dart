@@ -21,7 +21,7 @@ class Cart_Page extends StatelessWidget {
           MaterialButton(
             onPressed: (){
               Navigator.pop(context);
-              context.read<shop>().removeFromCart(p);
+              context.read<shop>().removeFromCart(p);    
           },   
           child: Text("Remove"),
           )
